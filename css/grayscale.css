@@ -125,7 +125,7 @@ a:focus {
   text-align: center;
   color: white;
   background: url(../img/intro-bg.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -145,6 +145,11 @@ a:focus {
   .intro {
     height: 100%;
     padding: 0;
+    color: white;
+  }
+  .intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
