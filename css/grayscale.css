@@ -126,14 +126,14 @@ a:focus {
   color: white;
   background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
-  -webkit-background-size: contain;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .intro-body {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
